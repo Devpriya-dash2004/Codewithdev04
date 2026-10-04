@@ -3,132 +3,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Devpriya Dash — Computer Science Engineering student and developer.">
-  <title>Devpriya Dash | Developer Portfolio</title>
+  <meta name="description" content="Devpriya Dash — Computer Science Engineering student, Java developer and MySQL learner.">
+  <meta name="theme-color" content="#07070a">
+  <title>Devpriya Dash — Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="progress" id="progress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="grid-bg"></div>
   <div class="noise"></div>
 
   <header class="nav">
-    <a class="brand" href="#home">DEV<span>.</span></a>
-    <nav>
+    <a class="brand" href="#home" aria-label="Devpriya home"><span>DEV</span><b>.</b></a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
+      <a href="#skills">Stack</a>
+      <a href="#projects">Work</a>
+      <a href="#education">Journey</a>
     </nav>
-    <a class="nav-cta" href="#contact">Contact</a>
+    <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">COMPUTER SCIENCE ENGINEERING STUDENT</p>
-        <h1>Hi, I'm <span>Devpriya Dash</span>.<br>I'm a developer in the making.</h1>
-        <p class="hero-text">
-          I build practical software projects, explore backend technologies,
-          and enjoy turning ideas into useful applications.
-        </p>
+    <section id="home" class="hero shell">
+      <div class="hero-left">
+        <div class="availability"><span></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="eyebrow">COMPUTER SCIENCE ENGINEERING · ITER · SOA</p>
+        <h1>Building ideas into <em>real software.</em></h1>
+        <p class="hero-copy">I'm Devpriya Dash — a CSE student focused on Java, databases and practical software development. I like turning messy problems into clean, usable systems.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">View my work</a>
-          <a class="button secondary" href="#about">Know more</a>
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button ghost" href="#about">More about me <span>↓</span></a>
+        </div>
+        <div class="micro-stats">
+          <div><strong>01</strong><span>Featured project</span></div>
+          <div><strong>02</strong><span>Core technologies</span></div>
+          <div><strong>∞</strong><span>Things to learn</span></div>
         </div>
       </div>
 
-      <div class="hero-card">
-        <div class="card-top"><span></span><span></span><span></span></div>
-        <div class="terminal-line"><i>01</i> <b>developer</b> = "Devpriya"</div>
-        <div class="terminal-line"><i>02</i> <b>stack</b> = ["Java", "MySQL"]</div>
-        <div class="terminal-line"><i>03</i> <b>building</b> = "Delivery Tracking System"</div>
-        <div class="terminal-line"><i>04</i> <b>status</b> = "always learning"</div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="two-column">
-        <h2>Building a strong foundation in software development.</h2>
-        <div>
-          <p>
-            I'm Devpriya Dash, a Computer Science Engineering student at the
-            Institute of Technical Education & Research (ITER), SOA.
-          </p>
-          <p>
-            I'm focused on strengthening my programming and database fundamentals
-            through hands-on projects and consistent learning.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="section-label">02 / SKILLS</div>
-      <div class="skill-grid">
-        <article class="skill-card">
-          <span class="skill-number">01</span>
-          <h3>Java</h3>
-          <p>Object-oriented programming, problem solving and application development.</p>
-        </article>
-        <article class="skill-card">
-          <span class="skill-number">02</span>
-          <h3>MySQL</h3>
-          <p>Relational data, SQL queries, database design and data management.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="section-label">03 / PROJECT</div>
-      <article class="project">
-        <div class="project-index">01</div>
-        <div class="project-content">
-          <p class="project-type">SOFTWARE PROJECT</p>
-          <h2>Delivery Tracking System</h2>
-          <p>
-            A delivery management application designed to register packages,
-            track shipment status, maintain delivery history, search shipments,
-            filter packages and persist delivery records.
-          </p>
-          <div class="tags">
-            <span>Java</span>
-            <span>MySQL</span>
-            <span>Database</span>
-            <span>Tracking</span>
+      <div class="hero-right">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="profile-card tilt-card">
+          <div class="card-head"><span class="window-dots"><i></i><i></i><i></i></span><span>devpriya.dev</span><span>•••</span></div>
+          <div class="avatar-ring"><div class="avatar">DD</div></div>
+          <div class="card-name">Devpriya Dash</div>
+          <div class="card-role">Java Developer · CSE Student</div>
+          <div class="terminal">
+            <div><span class="ln">01</span><span class="purple">const</span> developer = {</div>
+            <div class="indent"><span class="key">name:</span> <span class="green">"Devpriya"</span>,</div>
+            <div class="indent"><span class="key">stack:</span> [<span class="green">"Java"</span>, <span class="green">"MySQL"</span>],</div>
+            <div class="indent"><span class="key">focus:</span> <span class="green">"Building"</span></div>
+            <div>};<span class="blink">_</span></div>
           </div>
+          <div class="card-bottom"><span>ITER · SOA</span><span>2027</span></div>
         </div>
-        <div class="project-arrow">↗</div>
+        <div class="floating-chip chip-one">JAVA <b>01</b></div>
+        <div class="floating-chip chip-two">MYSQL <b>02</b></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div>JAVA <span>✦</span> MYSQL <span>✦</span> SOFTWARE DEVELOPMENT <span>✦</span> COMPUTER SCIENCE <span>✦</span> JAVA <span>✦</span> MYSQL <span>✦</span> SOFTWARE DEVELOPMENT <span>✦</span></div></div>
+
+    <section id="about" class="section shell">
+      <div class="section-top"><span>01</span><span>ABOUT</span><span class="line"></span><span>WHO I AM</span></div>
+      <div class="about-grid">
+        <div class="about-title"><p class="display-title">Curious mind.<br><span>Practical builder.</span></p></div>
+        <div class="about-copy">
+          <p class="lead">I'm a Computer Science Engineering student at the Institute of Technical Education & Research (ITER), SOA, Bhubaneswar.</p>
+          <p>I enjoy learning by building. My current focus is strengthening Java and database fundamentals while creating projects that solve clear, real-world problems.</p>
+          <div class="signature">DEVPRiya <span>—</span> learning in public</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section shell">
+      <div class="section-top"><span>02</span><span>STACK</span><span class="line"></span><span>WHAT I USE</span></div>
+      <div class="bento">
+        <article class="bento-card large spotlight">
+          <div class="card-number">01</div>
+          <div class="icon java-icon">J</div>
+          <h3>Java</h3>
+          <p>Object-oriented programming, application logic, collections, problem solving and structured software development.</p>
+          <div class="meter"><span style="width:72%"></span></div><small>CORE LANGUAGE</small>
+        </article>
+        <article class="bento-card spotlight">
+          <div class="card-number">02</div>
+          <div class="icon db-icon">⌘</div>
+          <h3>MySQL</h3>
+          <p>SQL queries, relational data, database design and persistent application data.</p>
+          <div class="tag-row"><span>SQL</span><span>RDBMS</span><span>DATA</span></div>
+        </article>
+        <article class="bento-card wide code-card">
+          <div class="code-label">CURRENT MINDSET</div>
+          <div class="code-big">learn<span> → </span>build<span> → </span>improve</div>
+          <p>Every project is a chance to understand the fundamentals a little better.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section shell">
+      <div class="section-top"><span>03</span><span>SELECTED WORK</span><span class="line"></span><span>PROJECT 01</span></div>
+      <article class="project-showcase spotlight">
+        <div class="project-visual">
+          <div class="visual-top"><span>DELIVERY / SYSTEM</span><span>01—01</span></div>
+          <div class="route"><span class="pin start"></span><div class="route-line"></div><span class="pin end"></span></div>
+          <div class="parcel-card"><span class="parcel-icon">□</span><div><small>SHIPMENT STATUS</small><strong>IN TRANSIT</strong></div><b>→</b></div>
+          <div class="visual-grid"></div>
+        </div>
+        <div class="project-info">
+          <div class="project-kicker">SOFTWARE PROJECT / JAVA + MYSQL</div>
+          <h2>Delivery<br><span>Tracking System.</span></h2>
+          <p>A delivery management application designed to register packages, track shipment status, maintain delivery history, search shipments, filter records and persist delivery data.</p>
+          <div class="tags"><span>Java</span><span>MySQL</span><span>Database</span><span>Tracking</span></div>
+          <a class="project-link" href="#contact">Discuss the project <span>↗</span></a>
+        </div>
       </article>
     </section>
 
-    <section id="education" class="section">
-      <div class="section-label">04 / EDUCATION</div>
-      <div class="education-card">
-        <div>
-          <p class="muted">B.TECH · COMPUTER SCIENCE ENGINEERING</p>
-          <h2>Institute of Technical Education & Research</h2>
-          <p>SOA Deemed to be University · Bhubaneswar, Odisha</p>
-        </div>
-        <div class="education-mark">ITER</div>
+    <section id="education" class="section shell">
+      <div class="section-top"><span>04</span><span>JOURNEY</span><span class="line"></span><span>EDUCATION</span></div>
+      <div class="timeline">
+        <div class="timeline-item active"><span class="dot"></span><div class="time">CURRENT</div><div><h3>B.Tech — Computer Science Engineering</h3><p>Institute of Technical Education & Research (ITER), SOA Deemed to be University</p><small>Bhubaneswar, Odisha · Expected 2027</small></div></div>
+        <div class="timeline-item"><span class="dot"></span><div class="time">NOW</div><div><h3>Building with Java & MySQL</h3><p>Strengthening programming fundamentals through hands-on projects and consistent practice.</p><small>Learning · Building · Improving</small></div></div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
-      <p class="eyebrow">LET'S CONNECT</p>
-      <h2>Have an idea?<br><span>Let's build it.</span></h2>
-      <p class="contact-text">Interested in software development, projects and learning new technologies.</p>
-      <a class="button primary" href="mailto:YOUR_EMAIL@example.com">Get in touch</a>
+    <section id="contact" class="contact shell">
+      <div class="contact-orbit"></div>
+      <p class="eyebrow">05 / LET'S CONNECT</p>
+      <h2>Let's build something<br><span>worth remembering.</span></h2>
+      <p>Open to learning, collaborating and turning interesting ideas into useful software.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:YOUR_EMAIL@example.com">Start a conversation <span>↗</span></a>
+        <a class="button ghost" href="https://github.com/Devpriya-dash2004/Codewithdev04" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <span>DEVPRiya DASH</span>
-    <span>© <span id="year"></span> · Built with HTML, CSS & JavaScript</span>
-  </footer>
-
+  <footer class="footer shell"><div><span class="footer-mark">DEV<span>.</span></span> / DEVPRIYA DASH</div><div>© <span id="year"></span> · Built with curiosity.</div></footer>
   <script src="script.js"></script>
 </body>
 </html>

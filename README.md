@@ -1,42 +1,29 @@
 # Devpriya Dash — Developer Portfolio
 
-Personal portfolio website for Devpriya Dash, a Computer Science Engineering student at the Institute of Technical Education & Research (ITER), SOA Deemed to be University.
+A cinematic, responsive personal portfolio for **Devpriya Dash**, a Computer Science Engineering student at ITER, SOA.
 
-## Built With
+## Built with
 
 - HTML5
 - CSS3
-- JavaScript
+- Vanilla JavaScript
 - Google Fonts
+- GitHub Pages
 
-## Featured Project
+## Featured project
 
-### Delivery Tracking System
+**Delivery Tracking System** — a Java + MySQL project for registering packages, tracking shipment status, maintaining delivery history, searching shipments and persisting delivery data.
 
-A delivery management application focused on package registration, shipment tracking, delivery-status management, search/filtering, tracking history and persistent records.
+## Run locally
 
-## Local Development
+Open `index.html` in a browser, or use VS Code Live Server.
 
-Clone the repository and open `index.html` in a browser.
+## Deploy with GitHub Pages
 
-For GitHub Pages, publish the repository from the repository's Pages settings using the main branch.
+1. Open the repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Select **Deploy from a branch**.
+4. Choose `main` and `/ (root)`.
+5. Save and wait for the deployment to finish.
 
-## Customization
-
-Replace:
-
-```text
-YOUR_EMAIL@example.com
-```
-
-in `index.html` with Devpriya's actual email address.
-
-Social links can also be added to the contact section when available.
-
-## Author
-
-Devpriya Dash (Dev)
-
-B.Tech Computer Science Engineering  
-Institute of Technical Education & Research (ITER)  
-SOA Deemed to be University
+> Replace `YOUR_EMAIL@example.com` in `index.html` with the actual contact email before publishing.
